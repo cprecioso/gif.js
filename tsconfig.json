@@ -1,0 +1,12 @@
+{
+  "extends": "@cprecioso/tsconfig/esm",
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "target": "ES2015",
+    "allowJs": true,
+    "lib": ["WebWorker", "ES2015"],
+    "strict": false,
+    "declaration": true,
+    "noEmit": true
+  }
+}
